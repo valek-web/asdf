@@ -1,0 +1,10 @@
+.bsp {
+  width: 100%;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+  padding-right: 20px;
+  min-height: calc(100vh - 155px);
+  box-shadow: 0px 0px 10px 0px #201e1e;
+}

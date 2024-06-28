@@ -1,0 +1,7 @@
+.Backdrop {
+  @apply fixed left-0 top-0 z-[-1] h-screen w-screen bg-black/[62%] opacity-0 transition-opacity duration-300;
+}
+
+.BackdropShow {
+  @apply z-[3] opacity-100;
+}

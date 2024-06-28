@@ -1,0 +1,78 @@
+// .Questions {
+//   @apply flex flex-col gap-[16px];
+// }
+
+// .Question {
+//   @apply relative rounded-[10px] px-[63px] pb-[44px] pt-[31px];
+
+//   box-shadow: 0px 0px 10px 0px #201e1e;
+// }
+
+// .OrderNumber {
+//   @apply absolute left-[29px] top-[31px] flex h-[23px] w-[23px] items-center justify-center bg-[#6044AE9C] text-[15px] text-white;
+// }
+
+// .Title {
+//   font-size: 15px;
+// }
+
+// .Options {
+//   @apply mt-[34px] flex flex-col gap-[14px];
+// }
+
+// .Option {
+//   @apply flex items-center gap-[31px] text-[10px] text-black;
+// }
+
+.RadioInput {
+  width: 20px;
+  height: 20px;
+}
+
+.radioQuestion {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.radioQuestion:before {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid #6044ae9c;
+  background-color: #fff;
+}
+
+.radioQuestionActive:before {
+  background-color: #6044ae9c;
+}
+
+.checkQuestion {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.checkQuestion:before {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #6044ae9c;
+  background-color: #fff;
+}
+
+.checkQuestionActive:before {
+  background-color: #6044ae9c;
+}
+
+.EndTestButton {
+  @apply absolute right-[-218px] top-[134px] flex h-[65px] w-[198px] items-center justify-center rounded-[7px] border border-solid border-[#48AB0C] text-[30px] text-[#48AB0C];
+
+  text-shadow: 0px 3px 4px #00000025;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}

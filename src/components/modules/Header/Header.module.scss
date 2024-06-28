@@ -1,0 +1,15 @@
+.Header {
+  @apply relative h-[140px] w-screen border-solid border-[#4D6FC7] bg-[#6044AE] border;
+}
+
+.MenuButton {
+  @apply absolute top-2/4 flex -translate-y-2/4 left-[170px] gap-[10.5px] flex-col;
+
+  span {
+    @apply inline-block h-[3px] w-[42px] bg-white;
+  }
+}
+
+.Title {
+  @apply absolute left-2/4 top-2/4 -translate-x-2/4 -translate-y-2/4 text-[40px] text-white;
+}

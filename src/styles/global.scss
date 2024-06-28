@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('./reset.scss');
+@import url('./fonts.scss');
+
+html,
+body {
+  @apply bg-white font-inter text-[16px] leading-[1.2] font-normal;
+}
+
+.container {
+  @apply mb-[20px] mx-auto max-w-[780px] mt-[4px] relative;
+}

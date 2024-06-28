@@ -1,0 +1,10 @@
+.Clock {
+  @apply absolute right-[-218px] top-[36px] flex-col gap-[35px] flex;
+}
+
+.Item {
+  @apply h-[65px] w-[198px] items-center justify-center rounded-[7px] border border-[#6044AE] text-[30px] text-[#6044AE] flex;
+
+  text-shadow: 0px 3px 4px #00000040;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}

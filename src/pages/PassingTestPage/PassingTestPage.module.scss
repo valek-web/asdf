@@ -1,0 +1,72 @@
+.Main {
+  @apply w-full rounded-[10px] px-[20px] pb-[15px] pt-[55px] relative;
+
+  min-height: calc(100vh - 155px);
+  box-shadow: 0px 0px 10px 0px #201e1e;
+}
+
+.Title {
+  @apply text-center text-[30px] text-[#6044AE] font-bold;
+}
+
+.Text {
+  @apply mt-[23px] text-[20px] text-[#7B7575] text-center;
+}
+
+.StartButton {
+  @apply mx-auto mt-[60px] block w-fit rounded-[7px] bg-[#6044AE] px-[30px] py-[14px] text-[20px] text-white;
+}
+
+.Author {
+  @apply bottom-[14px] left-[31px] text-[20px] font-medium text-[#BDB5B5] absolute;
+}
+
+.DatePicker {
+  * {
+    @apply p-0;
+  }
+
+  input {
+    @apply w-[170px] rounded-[10px] border border-solid border-blue-500 px-[10px] py-[9.5px] text-center;
+  }
+
+  svg {
+    @apply left-[-30px] absolute;
+  }
+}
+
+.TimePicker {
+  @apply h-[42px] p-0;
+
+  * {
+    @apply p-0;
+  }
+
+  input {
+    @apply w-[85px] rounded-[10px] border border-solid border-blue-500 px-[10px] py-[9.5px] text-center;
+  }
+
+  svg {
+    @apply left-[-30px] absolute;
+  }
+}
+
+.TimeInfo {
+  @apply mt-[35px] flex-wrap justify-between gap-[26px] flex;
+}
+
+.DateTitle {
+  @apply text-[20px] text-[#BDB5B5] font-medium;
+}
+
+.DateBox {
+  @apply flex-col items-center gap-[10px] flex;
+}
+
+.Date {
+  @apply gap-[18px] flex;
+}
+
+.PassingTime {
+  @apply flex-row;
+}

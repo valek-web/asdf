@@ -1,0 +1,18 @@
+.Main {
+  @apply rounded-[10px] py-[53px] pl-[120px] pr-[93px] w-full;
+
+  min-height: calc(100vh - 155px);
+  box-shadow: 0px 0px 10px 0px #201e1e;
+}
+
+.Tests {
+  @apply mt-[70px] flex-wrap gap-[29px] flex;
+}
+
+.Test {
+  @apply h-[82px] w-[161px] rounded-[7px] bg-[#6044AE] relative;
+}
+
+.TestName {
+  @apply ml-[24px] mt-[16px] inline-block text-[12px] text-white;
+}

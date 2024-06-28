@@ -1,0 +1,24 @@
+.Sidebar {
+  @apply absolute -left-full top-0 z-[5] h-[100dvh] border border-solid border-white bg-[#6044AE] px-[28px] py-[60px] transition-all duration-300;
+}
+
+.SidebarOpened {
+  @apply left-0;
+}
+
+.List {
+  @apply flex-col gap-[15px] flex;
+}
+
+.ListItem {
+  @apply border-b border-b-white;
+
+  a,
+  button {
+    @apply flex w-[183px] flex-col items-center pb-[13px] text-[15px] text-white;
+  }
+
+  svg {
+    @apply mb-[6px] h-[42px] w-full;
+  }
+}

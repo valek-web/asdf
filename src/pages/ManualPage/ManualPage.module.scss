@@ -1,0 +1,30 @@
+.Manual {
+  @apply rounded-[10px] py-[30px] pl-[40px] pr-[20px] w-full;
+
+  min-height: calc(100vh - 155px);
+  box-shadow: 0px 0px 10px 0px #201e1e;
+}
+
+.Title {
+  @apply text-center text-[30px] text-[#6044AE] font-bold;
+}
+
+.Text {
+  @apply mt-[32px] text-[20px] text-[#494747] inline-block;
+}
+
+.Download {
+  @apply mb-[18px] mt-[15px] inline-block w-full text-center text-[25px] text-[#6044AE] font-medium;
+}
+
+.Material {
+  @apply items-center justify-center gap-[30px] flex;
+}
+
+.MaterialItem {
+  @apply w-[105px] flex-col items-center gap-[6px] text-[15px] text-[#6044AE] flex;
+
+  svg {
+    width: 37px;
+  }
+}

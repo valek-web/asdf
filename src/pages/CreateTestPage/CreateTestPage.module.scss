@@ -1,0 +1,88 @@
+.MainInfo {
+  @apply mt-[15px] rounded-[10px] pb-[50px] pl-[46px] pr-[93px] pt-[20px] w-full;
+
+  box-shadow: 0px 0px 10px 0px #201e1e;
+}
+
+.Name {
+  @apply text-[30px] text-[#6044AE] font-bold;
+}
+
+.SelectSpecialitiesButton {
+  @apply mt-[30px] flex h-[42px] w-[200px] items-center justify-center rounded-[7px] bg-[#6044AE] text-[20px] text-white;
+}
+
+.SpecialitiesModal {
+  @apply absolute left-[46px] top-[140px] max-h-[133px] w-[220px] flex-col gap-[8px] overflow-auto rounded-[10px] border border-solid border-[#6044AE] bg-white px-[24px] pb-[12px] pt-[24px] flex;
+
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.Speciality {
+  @apply cursor-pointer gap-[8px] text-[15px] text-[#6044AE] flex;
+}
+
+.Options {
+  @apply mt-[16px] flex-col gap-[16px] flex;
+}
+
+.Option {
+  @apply items-center gap-[18px] flex;
+}
+
+.OptionName {
+  @apply w-[280px] text-[20px] text-[#BDB5B5] font-medium;
+}
+
+.DatePicker {
+  * {
+    @apply p-0;
+  }
+
+  input {
+    @apply w-[130px] px-[10px] py-[9.5px] inline-block;
+  }
+
+  svg {
+    @apply left-[-30px] absolute;
+  }
+}
+
+.TimePicker {
+  @apply h-[42px] p-0;
+
+  * {
+    @apply p-0;
+  }
+
+  input {
+    @apply w-[70px] px-[10px] py-[9.5px] inline-block;
+  }
+
+  svg {
+    @apply left-[-30px] absolute;
+  }
+}
+
+.Buttons {
+  @apply items-center justify-center gap-[27px] mt-[24px] flex;
+}
+
+.Button {
+  @apply flex h-[46px] w-[132px] items-center justify-center gap-[4px] rounded-[10px] bg-white text-[15px] font-medium;
+
+  box-shadow: 0px 0px 10px 0px #201e1e;
+}
+
+.AddButton {
+  color: #6044AE;
+
+  svg {
+    height: 20px;
+    width: 20px;
+  }
+}
+
+.SaveButton {
+  color: #48AB0C;
+}

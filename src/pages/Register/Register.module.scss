@@ -1,0 +1,61 @@
+.RegisterModal {
+  @apply left-2/4 top-2/4 w-[780px] -translate-x-2/4 -translate-y-2/4 rounded-[20px] px-[52px] pb-[12px] pt-[32px] absolute;
+
+  box-shadow: 1px 0px 8px 2px rgba(0, 0, 0, 0.7);
+}
+
+.Title {
+  @apply mb-[32px] text-center text-[30px] text-[#6044AE] font-bold;
+}
+
+.Section {
+  @apply rounded-[7px] flex;
+
+  box-shadow: 0px 4px 4px 0px #00000040;
+
+  &:not(:last-child) {
+    margin-top: 10px;
+  }
+}
+
+.LabelWrapper {
+  @apply w-full max-w-[260px] flex-col gap-[5px] rounded-l-[7px] bg-[#6044AE] p-[25px] flex;
+}
+
+.LabelWrapperMoreInfo {
+  padding-bottom: 45px
+}
+
+.Label {
+  @apply inline-block w-full border-b border-b-white text-[20px] font-bold text-white;
+}
+
+.InputWrapper {
+  @apply w-full flex-col gap-[5px] rounded-r-[7px] py-[25px] pl-[14px] pr-[32px] flex;
+}
+
+.Input {
+  @apply h-[25px] w-full border-b border-b-[#7B7575] text-[19px] text-[#7B7575] outline-none;
+}
+
+.InputPassword {
+  @apply text-[24.5px] text-[#6044AE] outline-none;
+}
+
+.Buttons {
+  @apply mt-[10px] justify-center gap-[32px] flex;
+}
+
+.Button {
+  @apply flex h-[30px] w-[111px] items-center justify-center rounded-[10px] border border-solid text-[12px] font-medium;
+
+  box-shadow: 0px 0px 2px 0px #00000040;
+}
+
+.SaveButton {
+  @apply border-[#48AB0C] text-[#48AB0C] flex;
+}
+
+.CancelButton {
+  @apply border-[#BA1818] text-[#BA1818] flex;
+}

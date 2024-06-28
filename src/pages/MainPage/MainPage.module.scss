@@ -1,0 +1,14 @@
+.Welcome {
+  @apply rounded-[10px] py-[53px] pl-[120px] pr-[93px] w-full;
+
+  min-height: calc(100vh - 155px);
+  box-shadow: 0px 0px 10px 0px #201e1e;
+}
+
+.Title {
+  @apply text-center text-[30px] text-[#6044AE] font-bold;
+}
+
+.Text {
+  @apply mt-[62px] text-[15px] text-[#201E1E] font-medium;
+}

@@ -1,0 +1,25 @@
+.LoginModal {
+  @apply absolute left-2/4 top-2/4 w-[550px] -translate-x-2/4 -translate-y-2/4 rounded-[20px] px-[60px] py-[70px] -translate-y-2/4;
+
+  box-shadow: 0.5px 4px 2px 0px rgba(0, 0, 0, 0.5);
+}
+
+.Form {
+  @apply flex gap-[28px] flex-col;
+}
+
+.Input {
+  @apply w-full border-b border-b-[#7B7575] text-[23px] text-[#7B7575] outline-none;
+}
+
+.InputPassword {
+  color: #6044AE;
+}
+
+.Buttons {
+  @apply mt-[70px] gap-[30px] flex;
+}
+
+.Button {
+  @apply flex h-[52px] w-[200px] items-center justify-center rounded-[7px] border-solid border-[#6044AE] text-[#6044AE] border;
+}

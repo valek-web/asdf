@@ -1,0 +1,40 @@
+.Info {
+  @apply rounded-[10px] px-[54px] py-[32px] w-full;
+
+  min-height: calc(100vh - 155px);
+  box-shadow: 0px 0px 10px 0px #201e1e;
+}
+
+.Title {
+  @apply mb-[56px] text-center text-[30px] text-[#6044AE] font-bold;
+}
+
+.Main {
+  @apply min-h-[372px] rounded-[7px] flex;
+
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.LabelWrapper {
+  @apply w-full max-w-[260px] flex-col gap-[5px] rounded-l-[7px] bg-[#6044AE] p-[25px] flex;
+}
+
+.Label {
+  @apply w-full border-b border-b-white text-[20px] font-bold text-white inline-block;
+
+  &:last-child {
+    @apply border-none;
+  }
+}
+
+.InputWrapper {
+  @apply w-full flex-col gap-[5px] rounded-r-[7px] py-[25px] pl-[14px] pr-[32px] flex;
+}
+
+.Input {
+  @apply h-[25px] w-full border-b border-b-[#7B7575] text-[19px] text-[#7B7575] outline-none;
+
+  &:last-child {
+    @apply border-none;
+  }
+}

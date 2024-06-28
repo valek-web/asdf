@@ -1,0 +1,56 @@
+.Main {
+  @apply w-full rounded-[10px] py-[53px] pl-[120px] pr-[93px] relative;
+
+  min-height: calc(100vh - 155px);
+  box-shadow: 0px 0px 10px 0px #201e1e;
+}
+
+.CreateButton {
+  @apply right-[55px] top-[30px] flex h-[66px] w-[66px] items-center justify-center rounded-full bg-[#6044AE] absolute;
+}
+
+.EnterName {
+  @apply left-2/4 top-[105px] flex h-[200px] w-[560px] -translate-x-2/4 flex-col items-center gap-[20px] rounded-[10px] bg-[#6044AE42] pt-[55px] absolute;
+}
+
+.EnterNameInput {
+  @apply h-[55px] w-[450px] rounded-[7px] border border-solid border-black pl-[32px] text-black outline-none;
+
+  &:placeholder {
+    color: #6044ae42;
+  }
+}
+
+.EnterNameSaveButton {
+  @apply rounded-[7px] bg-[#6044AE] px-[32px] py-[10px] text-[20px] text-white;
+}
+
+.Tests {
+  @apply mt-[70px] flex-wrap gap-[29px] flex;
+}
+
+.Test {
+  @apply h-[82px] w-[161px] rounded-[7px] bg-[#6044AE9C] relative;
+}
+
+.TestName {
+  @apply ml-[24px] mt-[16px] inline-block text-[12px] text-white;
+}
+
+.HideButton {
+  @apply bottom-[12px] left-[49px] absolute;
+
+  svg {
+    height: 12px;
+    width: 12px;
+  }
+}
+
+.EditButton {
+  @apply bottom-[9px] left-[24px] absolute;
+
+  svg {
+    height: 18px;
+    width: 18px;
+  }
+}
